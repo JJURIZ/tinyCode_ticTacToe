@@ -20,7 +20,7 @@
 
  
     //console.log(allVar.win1.reduce((a, b) => a + b));
-
+// This doesn't work yet. 
     let winCheck = function winCheck() {
         let keys = Object.keys(allVar);
         let len = keys.length;
