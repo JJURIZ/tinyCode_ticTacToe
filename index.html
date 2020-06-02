@@ -1,23 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+
 <body>
-    <h1>Tic Tac Toe</h1>
-    <div class="container">
-        <div class="quad" id="q0"></div>
-        <div class="quad" id="q1"></div>
-        <div class="quad" id="q2"></div>
-        <div class="quad" id="q3"></div>
-        <div class="quad" id="q4"></div>
-        <div class="quad" id="q5"></div>
-        <div class="quad" id="q6"></div>
-        <div class="quad" id="q7"></div>
-        <div class="quad" id="q8"></div>
+    <div class="board" id="board">
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
     </div>
-    <script src="ticTacToe.js"></script>
+    <div class="winning-message" id="winningMessage">
+        <div data-winning-message-text>X Wins!</div>
+        <button id="restartButton">Restart</button>
+    </div>
 </body>
+
 </html>
+
+<!-- https://www.youtube.com/watch?v=Y-GkMjUZsmM -->
